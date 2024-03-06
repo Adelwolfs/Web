@@ -1,0 +1,230 @@
+@media(max-width:1410px){
+    .project__content{
+        padding: 0px 10px;
+        flex-wrap: wrap;
+        max-width: 1000px;
+        margin: 0px auto;
+    }
+}
+@media(max-width:1105px){
+    .products__img{
+        width: 600px;
+        height: 300px;
+        margin: 0px auto;
+    }
+    .products{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0px auto;
+    }
+    .products__descr{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0px auto;
+    }
+    .container{
+        margin: 0px auto;
+    }
+    .products__img{
+        height: 400px;
+    }
+    .products__title{
+        text-align: center;
+        margin: 30px auto 20px auto;
+    }
+    .products__text{
+        text-align: justify;
+    }
+    .header__bg{
+        width: 880px;
+        margin: 5px auto;
+    }
+    .container{
+        width: 880px;
+    }
+    .project__content{
+        width: 880px;
+    }
+}
+@media(max-width:880px){
+    .header__bg{
+        width: 751px;
+        margin: 5px auto;
+    }
+    .container{
+        width: 751px;
+    }
+    .project__content{
+        max-width: 750px;
+    }
+    .footer__list{
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 75px;
+        row-gap: 5px;
+        padding-left: 10px;
+    }
+    .products__img{
+        height: 400px;
+    }
+    .products__title{
+        text-align: center;
+    }
+    .products__text{
+        text-align: justify;
+    }
+    .header__list{
+        flex-wrap: wrap;
+        column-gap: 80px;
+        row-gap: 5px;
+        margin: 5px auto;
+        width: 540px;
+    }
+    .header__nav-content{
+        column-gap: 20px;
+        flex-direction: column;
+    }
+    .logo{
+        margin: 20px auto;
+    }
+}
+@media(max-width:751px){
+    .project__content{
+        max-width: fit-content;
+    }
+    .project__item-second{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .project__item-fourth{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+@media(max-width:680px){
+    .footer__list{
+        column-gap: 50px;
+    }
+    .products__title{
+        text-align: center;
+    }
+    .products__text{
+        text-align: justify;
+    }
+    .products__img{
+        height: 400px;
+    }
+}
+@media(max-width:680px){
+    .header__bg{
+        width: 551px;
+    }
+    .container{
+        width: 551px;
+    }
+}
+@media(max-width:631px){
+    .footer__list{
+        column-gap: 20px;
+    }
+    .products__title{
+        text-align: center;
+    }
+    .products__text{
+        text-align: justify;
+    }
+}
+@media(max-width:571px){
+    .footer__list{
+        column-gap: 20px;
+    }
+    .products__title{
+        text-align: center;
+    }
+    .products__text{
+        text-align: justify;
+    }
+}
+@media(max-width:551px){
+    .footer__list{
+        padding-left: 20px;
+        margin: 18px;
+        column-gap: unset;
+        flex-direction: column;
+        width: fit-content;
+    }
+    .footer__content{
+        height: fit-content;
+        flex-wrap: wrap;
+        }
+    .footer__link{
+        margin: 0;
+    }
+    .products__title{
+        text-align: center;
+    }
+    .products__text{
+        text-align: justify;
+    }
+    .header__list{
+        column-gap: 40px;
+        width: 445px;
+    }
+    .header__bg{
+        width: 445px;
+    }
+    .container{
+        width: 445px;
+    }
+}
+@media(max-width:445px){
+    .products__img{
+        width: 300px;
+    }
+    .products__descr{
+        width: 300px;
+    }
+    .products__title{
+        text-align: center;
+    }
+    .products__text{
+        text-align: justify;
+    }
+    .header__list{
+        flex-direction: column;
+        width: 120px;
+    }
+    .header__nav-content{
+        width: fit-content;
+    }
+    .container{
+        width: fit-content;
+    }
+    .header__bg{
+        width: 351px;
+    }
+}
+
+@media(max-width:371px){
+    .project__item-first{
+        width: 300px;
+    }
+    .project__item-second{
+        width: 300px;
+    } .project__item-third{
+        width: 300px;
+    } .project__item-fourth{
+        width: 300px;
+    }
+    .header__bg{
+        width: 300px;
+    }
+    .project__img{
+        width: 300px;
+    }
+}
+@media(max-width:343px){
+    .footer__list{
+        padding: 0;
+    }
+}
